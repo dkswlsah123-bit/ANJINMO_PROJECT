@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.body
+{
+	margin: auto;
+	font-size: 16px;
+	color: black;
+	font-family: "맑은 고딕";
+	width: 700px;
+	margin-top: 50px;
+}
+.body2
+{
+	margin: auto;
+	width: 90%;
+}
+
+.big
+{
+	font-weight: bold;
+	font-size: 24px;
+}
+.top
+{
+	margin-bottom: 30px;
+	
+}
+.name
+{
+	font-weight: bold;
+}
+.term
+{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+.termcontent
+{
+	border: 3px solid #f7f7f7;
+	border-radius: 7px;
+	height: auto;
+	padding: 20px;
+}
+.form-check
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.moneycheck
+{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.last
+{
+	font-size:15px;
+}
+.lm
+{
+	width: 100px;
+	
+}
+.lsm
+{
+	display: inline-block;
+	width: 100px;
+}
+.con
+{
+	display:inline-block;
+	margin-bottom: 20px;
+}
+.moneylist
+{
+	width: 210px;
+}
+.ownercheck
+{
+	margin: 100px 0 50px 0;
+}
+.lastbtn
+{
+	margin: 100px 0 200px 0;
+}
+.last
+{
+	margin-bottom:5px;
+}
+#inputPassword
+{
+	width: 150px;
+}
+.btn-secondary
+{
+	height: 45px;
+}

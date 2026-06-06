@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body
+{
+	margin-top: 50px;
+}
+.body
+{
+	margin: auto;
+	width: 80%;
+	background-color: white;
+}
+a:visited, a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.pagecontrol
+{
+	margin-top:30px;
+	align-items: center;
+}
+.sel
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 700px;
+	display: flex;
+	
+}
+h1
+{
+	font-size: 30px;
+}
+.form-select
+{
+	width: 150px;
+	/* display: inline-block; */
+	margin-left: 20px;
+	height: 38px;
+}
+.row
+{
+	/* display: inline-block; */
+	width: 350px;
+	margin-left: 20px;
+}
+.btn-dark
+{
+	margin-left: 20px;
+	width: 80px;
+}
+.tot
+{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+}
+.bid
+{
+	padding: 10px;
+	/* border-right: 1px solid black; */
+	height: 100px;
+	width: 40%;
+	border:2px solid silver;
+	margin: 30px 30px 10px 30px;
+	text-align: center;
+	border-radius: 8px;
+}
+.bid>span
+{
+	display:block;
+}
+table
+{
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+}
+th
+{
+	border:1px solid silver;
+	border-radius: 10px;
+	height: 40px;
+}
+hr
+{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+tr
+{
+	height: 40px;
+	border-bottom: 1px solid silver;
+}

@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body
+{
+	margin-top:50px;
+	
+}
+h1,h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.body
+{
+	margin:auto;
+	width:80%;
+}
+.body div
+{
+	display: inline-block;
+}
+
+.box
+{
+	width:80%;
+	margin:auto;
+
+}
+.itemimg
+{
+	vertical-align: middle;
+	display: inline-block;
+	width: 350px;
+	height: 350px;
+	background-color: silver;
+	margin: 0 20px 0 0; 
+}
+hr
+{
+	margin-bottom: 30px;
+}
+.item
+{
+	padding: 20px 30px 30px 30px;
+	border: 2px solid silver;
+	border-radius: 7px;
+	width: 700px;
+	height: 500px;	
+	display: block;
+	margin-bottom: 20px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+}
+.cash
+{
+	padding: 20px 30px 30px 30px;
+	border: 2px solid silver;
+	border-radius: 7px;
+	position:fixed;
+	transform:translate(30px,300px);
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+	width: 300px;
+	height: 515px;	
+}
+.btn-outline-secondary
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.btn-outline-secondary:first-child
+{
+	margin-top:30px;
+}
+.cash span
+{
+	display: block;
+}
+.itemtext
+{
+	vertical-align: middle;
+	
+	width: 250px;
+	display: inline-block;
+}
+.box2
+{
+	width:80%;
+	margin:auto;
+}
+.adress
+{
+	padding: 20px 30px 30px 30px;
+	border: 2px solid silver;
+	border-radius: 7px;
+	width: 700px;
+	height: 320px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+}
+.mb-2
+{
+	margin: 15px 0 10px 0;
+	width: 100%;
+}
+.adress div
+{
+	display: block;
+}
+.adressconfirm
+{
+	padding: 20px 30px 30px 30px;
+	border: 2px solid silver;
+	border-radius: 7px;
+	width: 700px;
+	height: 230px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+}
+/* .cashtot
+{
+	padding: 20px 30px 30px 30px;
+	border: 2px solid silver;
+	border-radius: 7px;
+	width: 200px;
+	height: 300px;
+} */
+.title
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.tt
+{
+	display:inline-block;
+	width: 100px;
+	font-weight: bold;
+}
+.tts
+{
+	display:inline-block;
+	width: 120px;
+	font-weight: bold;
+}
+.condition
+{
+	font-family: small;
+}
+.nh
+{
+	margin-bottom: 10px;
+}
+.bt
+{
+	width: 100%;
+}
+.btn-light
+{
+	position: absolute;
+	margin-left: 45px;
+	font-family: small;
+}
+.errMsg
+{
+	display: none;
+}

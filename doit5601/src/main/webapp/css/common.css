@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: '본고딕';
+	color: #333;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+img {
+	border: none;
+}
+
+address {
+	font-style: normal;
+}
+
+input[type=button], input[type=submit], input[type=image], input[type=reset],
+	button {
+	cursor: pointer;
+}
+
+label.away {
+	position: absolute;
+	left: -999em;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	position: absolute;
+	left: -999em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+/* 페이지 전체를 flex 박스로 만듭니다 */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* 화면 높이의 100%를 최소 높이로 설정 */
+	margin: 0;
+}
+
+/* 메인 콘텐츠 영역이 남는 공간을 모두 차지하게 합니다 */
+main.container, .container {
+	flex: 1;
+}
+
+/* 푸터는 자연스럽게 맨 아래로 밀려납니다 */
+footer {
+	flex-shrink: 0;
+}
+
+/* 메뉴 호버 효과 */
+.hover-primary:hover {
+	color: #120e63 !important;
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
+/* 드롭다운 메뉴 위치 조정 */
+.dropdown-menu {
+	margin-top: 10px !important;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+	background-color: #120e63 !important;
+	border-color: #120e63 !important;
+}
+
+.page-link {
+	color: #120e63 !important;
+}
+
+.page-item.active .page-link {
+	background-color: #120e63 !important;
+	color: #fff !important;
+	border-color: #120e63 !important;
+}
+
+.bgColor {
+	background-color: #120e63;
+}
+
+.txtColor {
+	color: #120e63;
+}
+
+.btn-outline-primary {
+	color: #120e63 !important;
+	border-color: #120e63 !important;
+}
+
+.btn-outline-primary:hover {
+	background-color: #120e63 !important;
+	color: #fff !important;
+}
+
+.errMsg {
+	display: none;
+}
